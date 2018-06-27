@@ -3,6 +3,8 @@ from flask.ext.mysql import MySQL
 from werkzeug import generate_password_hash, check_password_hash
 import os
 import re
+import jenkins.model.*
+jenkins = Jenkins.instance
 
 
 mysql = MySQL()
